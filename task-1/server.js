@@ -3,13 +3,13 @@ const { ApolloServer, gql } = require("apollo-server");
 // define graphql schema using SDL
 const typeDefs = gql`
   type User {
-    id: ID! // scalar type: the value is used to uniquely identify an object
+    id: ID!
     name: String!
     email: String!
   }
 
   type Query {
-    users: [Users!]
+    users: [User!]
     user(id: ID!): User
   }
 
