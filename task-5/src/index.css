@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.user-list-container {
+  max-width: 600px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1em;
+  color: #555;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  border: 1px solid #eee;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+li:hover {
+  background-color: #f0f3f6;
+  border-color: #e0e0e0;
+}
+
+li span:last-child {
+  font-weight: 400;
+  color: #667;
+  font-size: 0.95em;
+}
