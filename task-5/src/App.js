@@ -2,6 +2,7 @@ import React from "react";
 import { gql } from "@apollo/client";
 import { useQuery } from "@apollo/client/react";
 
+// defining gql
 const GET_USERS = gql`
   query getUsers {
     users {
